@@ -1,4 +1,27 @@
+:roqt{
+    --branco: white;
+    --cor-de-fundo: #00162e
+    --fundo_senha:#00244d
+    --fundo-texto: #001e40
+    --borda: #0075ff;
+}
 .parametro-senha-botoes{
     display: flex;
     justify-content: center;
+    .parametro-senha__botao{
+        background-color: var(--fundo--texto);
+        color: var(branco);
+        border: 2px splid var(--borda);
+        padding: 24px; 
+        font-size: 24px;
+
+    }
+}
+.parametro-senha__texto{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    boder: 2px solid var (--borda);
+    pedding:24px;
+    font:size 24px; 
+    corsor: pointer;
 }
